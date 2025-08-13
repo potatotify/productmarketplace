@@ -16,7 +16,7 @@ const upload = multer({ storage });
 
 // Enhanced CORS configuration
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173','https://vercel.com/chirag-khatis-projects/productmarketplace-4e6l/64yU3o5hhxPhYsbCCuyRrriZEMRQ'],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173','https://productmarketplace-4e6l.vercel.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
